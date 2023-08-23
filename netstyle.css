@@ -1,0 +1,146 @@
+#netimg
+{
+    width:169px;
+    height:65px;
+    margin-left:5px;
+    margin-top:-3px;
+}
+
+.formin
+{ 
+    background-color:white;
+    background-color:rgba(0, 0, 0, 0.724);
+    padding:15px;
+    width:400px;
+    margin-top:20px;
+    margin-left:auto;
+    margin-right:auto;
+    height:640px;
+    transition: width 2s;
+    max-width:700px;
+}
+
+.formin:hover{
+    width:600px;
+    transition-timing-function:step-start;
+}
+
+body{
+  margin:0px;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.75),rgba(0,0,0,0.5)) ,url('https://assets.nflxext.com/ffe/siteui/vlv3/25badb14-858b-4b1c-8b7d-2244098454d9/c18df626-e6fc-4dbb-818a-55d299b11842/IN-en-20220606-popsignuptwoweeks-perspective_alpha_website_small.jpg');
+}
+
+#heading
+{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:32px;
+    text-align:left;
+    margin:5px;
+    color:azure;
+}
+
+.textbox{
+    width:90%;
+    height:40px;
+    border-radius:5px;
+    background-color:rgb(49, 46, 46);
+    opacity:10;
+    border:none;
+    color:white;
+    padding-top:6px;
+    padding-left:15px;
+    font-size:18px;
+    margin-bottom:15px;
+}
+
+::placeholder {
+    color:rgb(172, 164, 164);
+    opacity: 0.8;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:17px;
+    top:-10px;
+    text-align:left;
+    font-weight:lighter;
+  }
+
+.Sub{
+    width:95%;
+    height:50px;
+    border-radius:5px;
+    background-color:red;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:20px;
+    color:white;
+    font-weight:bold;
+}
+
+.textbox:focus{
+    background-color:rgb(74, 69, 69);
+}
+
+.small
+{
+  margin-top:40px;
+  margin-left:55px;
+}
+
+.footer
+{
+    height:250px;
+    background-color:rgba(0, 0, 0, 0.84);
+    padding:20px;
+    padding-left:40px;
+    font-size:15px;
+    font-family:Arial, Helvetica, sans-serif;
+    color:rgba(174, 172, 172, 0.687);
+    text-align:left;
+    font-weight:lighter;
+    padding-left:60px;
+
+}
+
+.infoot
+{
+  margin-left:auto;
+  margin-right:auto;
+  width:80%;
+  min-width:300px;
+}
+
+.container
+{
+    padding-bottom:100px;
+    align-items:center;
+}
+
+.gridn
+{
+   display:grid;
+   grid-template-columns:25% 25% 25% 25%;
+   gap:10px;
+}
+
+.gridn > div
+{
+   font-size:13px;
+   font-weight:lighter;
+}
+
+
+
+#lang
+{
+   width:150px;
+   height:50px;
+   text-align:center;
+   background-color:black;
+   color:rgba(255, 255, 255, 0.434);
+   border-radius:4px;
+   border:2px solid rgba(128, 128, 128, 0.534);
+   font-size:16px;
+   font-weight:lighter;
+}
+
